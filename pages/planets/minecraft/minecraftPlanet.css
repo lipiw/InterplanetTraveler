@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Roboto;
+
+    background-color: #000000;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+header {
+    background-color: #ebcead;
+    height: 120px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    gap: 15px;
+    margin-right: 50px;
+    background-color: #ebcead;
+}
+
+header a {
+    color: #602f10;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #ebcead;
+}
+
+.logo img {
+    width: 124px;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 600px;
+    height: 350px;
+    display: flex;
+}
+
+.product-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgb(23, 19, 70);
+    transition: all 0.3s ease;
+}
+
+.product-container:hover {
+    transform: translateY(-5px);
+}
+
+.product-container img {
+    width: 350px;
+    height: auto;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 25px;
+}
+
+.product-details {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #ebcead;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.product-details h2 {
+    font-size: 24px;
+    margin: 0 0 10px 0;
+    color: #602f10;
+    background-color: transparent;
+}
+
+.product-details p {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    color: #4c4c4c;
+    background-color: transparent;
+}
+
+.product-details .price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f00;
+}
+
+.comprar{
+    background-color: transparent;
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+.btnComprar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+
+    background-color: #177a00;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+}
