@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+html,body{
+    height: 100%;
+    overflow: hidden;
+}
+
+header{
+    background-color: #ebcead;
+    height: 120px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    gap: 15px;
+    margin-right: 50px;
+    background-color: #ebcead;
+}
+
+header a{
+    color: #602f10;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #ebcead;
+}
+
+.logo img{
+    width: 124px;
+}
+
+main{
+    background-image: url('../../assets/nebulosa.jpeg');
+    background-position: center top;
+    background-size: 100% auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+h2{
+    background-color: transparent;
+    color: #602f10;
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    gap: 10px;
+    background-color: #ebcead;
+    border-radius: 10px;
+    height: 400px;
+    color: #602f10;
+    gap: 30px;
+    border: black solid 1px;
+    padding: 10px 40px ;
+}
+
+form input{
+    display: flex;
+    color: black;
+    background-color: aliceblue;
+    width: 80%;
+}
+
+form button{
+    color: black;
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+}
+
+label{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 20px;
+}
+
+audio {
+    width: 200px;
+    height: 50px;
+}
+
+
+

@@ -5,8 +5,13 @@
     text-decoration: none;
     box-sizing: border-box;
     font-family: Roboto;
-    height: 100%;
+
     background-color: #000000;
+}
+
+html,body{
+    height: 100%;
+    overflow: hidden;
 }
 
 header{
@@ -38,38 +43,22 @@ header a{
 }
 
 main{
-    background-image: url('../../assets/nebulosa.jpeg');
-    height: 100%;
-    width: 100%;
-    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    padding-top: 100px;
 }
 
-h2{
-    background-color: transparent;
+iframe{
+   margin-top: 50px;
 }
 
-form{
+
+main{
     display: flex;
-    flex-direction: column;
-    gap: 5px;
-    background-color: transparent;
+    align-items: center;
+    justify-content: center;
 }
 
-form input{
-    color: white;
-    background-color: aliceblue;
+iframe{
+   margin-top: 50px;
 }
-
-form button{
-    color: black;
-    background-color: aliceblue;
-}
-
-
-
-

@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Roboto;
+
+    background-color: #000000;
+}
+
+header {
+    background-color: #ebcead;
+    height: 120px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    gap: 15px;
+    margin-right: 50px;
+    background-color: #ebcead;
+}
+
+header a {
+    color: #602f10;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #ebcead;
+}
+
+.logo img {
+    width: 124px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vitrine {
+    height: 100%;
+    width: 100%;
+    color: white;
+    padding-left: 150px;
+    padding-top: 5%;
+   
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.opcao {
+    width: 200px;
+    height: 310px;
+
+    background-color: #ebcead;
+    border-radius: 30px;
+}
+
+.imgVitrine {
+    width: 200px;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+
+    background-color: #735b1f;
+}
+
+h6,
+span {
+    background-color: transparent;
+    font-size: 13px;
+}
+
+.comprar{
+    background-color: transparent;
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+.btnComprar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+
+    background-color: #177a00;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+}
