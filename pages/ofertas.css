@@ -50,9 +50,7 @@ header a{
   }
 
 main{
-    /* background-image: url('../../assets/nebulosa.jpeg'); */
-    background-position: center top;
-    background-size: 100% auto;
+    background-color: black;
     color: white;
     display: flex;
     align-items: center;
