@@ -16,7 +16,7 @@ body {
 
 header {
     background-color: #ebcead;
-    height: 120px;
+    height: 90px;
     width: 100%;
 
     display: flex;
@@ -39,7 +39,7 @@ header a {
 }
 
 .logo img {
-    width: 124px;
+    width: 94px;
 }
 
 main {
