@@ -1,64 +1,7 @@
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    text-decoration: none;
-    box-sizing: border-box;
-    font-family: Roboto;
+<h1> Interplanet Traveler 🌌 </h1
 
-    background-color: #000000;
-}
+### Bem-vindos ao mundo da exploração interplanetária! 🚀🪐
 
-html,body{
-    height: 100%;
-    overflow: hidden;
-}
+À medida que a tecnologia avança, os seres humanos se aventuram cada vez mais longe em nossa galáxia, uma nova fronteira de turismo está emergindo - turismo em outros planetas. Imagine passear pelas paisagens deslumbrantes de Marte, fazer mergulhos subaquáticos em luas de Saturno ou visitar cidades futuristas em exoplanetas distantes. O turismo interplanetário pode parecer algo saído de um filme de ficção científica, mas com o desenvolvimento contínuo de tecnologias espaciais e o aumento da exploração do espaço, essa possibilidade pode estar mais próxima do que imaginamos. Este é um momento emocionante para aqueles que se interessam pela exploração do espaço, e o turismo em outros planetas oferece uma oportunidade única para expandir nossos horizontes e experienciar novas culturas e ecossistemas em locais que antes eram apenas sonhos. Vamos embarcar nesta jornada cósmica e descobrir o que o turismo interplanetário pode nos oferecer!
 
-header{
-    background-color: #ebcead;
-    height: 120px;
-    width: 100%;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header nav{
-    display: flex;
-    gap: 15px;
-    margin-right: 50px;
-    background-color: #ebcead;
-}
-
-header a{
-    color: #602f10;
-    font-size: 20px;
-    font-weight: 700;
-    background-color: #ebcead;
-}
-
-.logo img{
-    width: 124px;
-}
-
-main{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-iframe{
-   margin-top: 50px;
-}
-
-
-main{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-iframe{
-   margin-top: 50px;
-}
+Aqui, você encontrará tudo o que precisa saber para explorar as maravilhas do espaço. Junte-se a nós em uma jornada emocionante através dos planetas, satélites e estrelas da nossa galáxia. Nossa equipe de especialistas em viagens está pronta para ajudá-lo a planejar a sua aventura interplanetária dos sonhos, oferecendo uma ampla gama de opções de viagens e serviços personalizados para atender às suas necessidades. Se você é um entusiasta da exploração espacial, um amante da ciência ou simplesmente um viajante curioso, aqui é o lugar certo para você! Venha conosco e descubra novos mundos.
